@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produit</title>
+    <link rel="stylesheet" href="lego.css">
+</head>
+
+<body>
+    <header>
+        <h1>LEGO Webstore</h1>
+        <hr>
+        <ul>
+            <li><a href="lego.html" target="_blank">Accueil</a></li>
+            <li>Acheter</li>
+        </ul>
+        <hr>
+    </header>
+
+    <main>
+        <h2>Acheter des LEGO</h2>
+        <p>Remplir le formulaire ci-dessous pour commander des LEGO !</p>
+        <h3>Informations personnelles</h3>
+        <form action="">
+            <label for="gender">Civilité</label><br>
+            <input type="radio" name="gender" value="male"><label>Mr</label>
+            <input type="radio" name="gender" value="female"><label>Mrs</label><br>
+
+            <label for="lastname">Nom :</label><br>
+            <input name="lastname" type="text" placeholder="Votre nom..."><br>
+
+            <label for="firstname">Prénom :</label><br>
+            <input name=firstname type="text" placeholder="Votre prénom..."><br>
+
+            <label for="email">Email :</label><br>
+            <input name="email" type="email" placeholder="Votre email...">
+
+            <h3>Informations de livraison</h3>
+            <label for="quantity">Quantité commandée :</label><br><br>
+            <select name="quantity" id="quantity">
+            <option value="one">1 boîte</option>
+            <option value="two">2 boîtes</option>
+            <option value="three">3 boîtes</option>
+            <option value="four">4 boîtes</option>
+            <option value="five">5 boîtes</option>
+            </select><br><br>
+
+            <label for="adress">Adresse de livraison :</label><br>
+            <textarea name="adress" cols="30" rows="20"></textarea>
+
+            <h3>Confirmation</h3>
+
+            <input name="validation" type="checkbox">
+            <label for="validation">J'ai relu ma commande et certifie que ces informations sont correctes.</label>
+            <br><br>
+            <input type="submit">
+        </form>
+
+        <hr>
+    
+    </main>
+
+    <footer>
+        <p><a href="#top">Retour en haut de page</a></p>
+
+    </footer>

@@ -1,0 +1,30 @@
+a {
+    text-decoration: None;
+}
+
+
+
+table {
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: solid 2px;
+    border-collapse: collapse;
+}
+
+body {
+    background-color: lightgrey;
+    font-family: sans-serif;
+    
+}
+
+.container {
+    background: linear-gradient(45deg, red, white, green, blue, purple, yellow, brown, grey, orange);
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 1%;
+}
